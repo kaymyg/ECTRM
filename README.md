@@ -8,6 +8,17 @@ A research proposal for a bounded, transparent, consensus-enforced way for Ether
 
 Today, once an exploit succeeds, the protocol treats the attacker as fully authorized to spend the stolen funds. ECTRM explores a recovery registry in which independently authorized *recovery orders* designate attacker addresses. Upgraded execution clients then redirect outgoing ETH from those addresses into a per-incident victim escrow, capped at the verified stolen amount, with a public challenge and reversal process. Gas, fees, validator rewards and every unmarked account stay exactly as they are.
 
+## Submission status
+
+This proposal is being prepared for the official [Ethereum Improvement Proposals repository (ethereum/EIPs)](https://github.com/ethereum/EIPs), following the process in [EIP-1](https://eips.ethereum.org/EIPS/eip-1).
+
+| Step | Status |
+|---|---|
+| Full proposal written | Done |
+| Draft in the official EIP template | Done, see [eip-draft_consensus_theft_recovery.md](eip-draft_consensus_theft_recovery.md) |
+| Discussion thread on [Ethereum Magicians](https://ethereum-magicians.org/c/eips/eips-core/35) | Pending |
+| Pull request to [ethereum/EIPs](https://github.com/ethereum/EIPs/pulls) | Pending, opens once the discussion thread is live |
+
 ## What's in this repo
 
 | File | What it is |
