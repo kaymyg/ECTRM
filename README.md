@@ -58,3 +58,8 @@ Technical criticism is very welcome. Please open an issue, or join the discussio
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 Author: Paul K ([@kaymyg](https://github.com/kaymyg))
+
+## Contributing
+
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get set up and run the checks,
+and [SECURITY.md](SECURITY.md) for reporting vulnerabilities privately.
